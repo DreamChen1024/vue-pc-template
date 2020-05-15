@@ -18,7 +18,7 @@ module.exports = {
     hotOnly: false,
     /** proxy: 配置代理  type: string | object*/
     proxy: {
-      '/front-mall-api': {
+      '/ybt-backend': {
         target: 'https://yyc-stard.ycb51.cn/',
         changeOrigin: true
       }
